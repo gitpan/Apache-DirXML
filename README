@@ -1,0 +1,29 @@
+1. Description
+==============
+
+Apache::DirXML - mod_perl interface to XML::Directory. It returns an
+XML representation of directory tree via http.
+
+The current version is 0.10.
+
+2. License
+==========
+
+Copyright (c) 2001 Ginger Alliance. All rights reserved. This program is free 
+software; you can redistribute it and/or modify it under the same terms as 
+Perl itself. 
+
+3. Prerequisites
+================
+
+mod_perl, Apache::Constants, XML::Directory
+
+4. Build and Install
+====================
+
+The module builds and installs in a standard way:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
